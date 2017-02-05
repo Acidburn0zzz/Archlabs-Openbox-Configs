@@ -1,0 +1,54 @@
+2017-02-05	rc.xml KEYBINDS
+-------------------------------
+
+ 0	C-A-Left        	GoToDesktop
+ 1	C-A-Right       	GoToDesktop
+ 2	C-A-Up          	GoToDesktop
+ 3	C-A-Down        	GoToDesktop
+ 4	S-A-Left        	SendToDesktop
+ 5	S-A-Right       	SendToDesktop
+ 6	S-A-Up          	SendToDesktop
+ 7	S-A-Down        	SendToDesktop
+ 8	W-F1            	GoToDesktop
+ 9	W-F2            	GoToDesktop
+10	W-F3            	GoToDesktop
+11	W-F4            	GoToDesktop
+12	W-d             	ToggleShowDesktop
+13	A-F4            	Close
+14	A-F5            	Iconify
+15	A-F6            	ToggleMaximize
+16	A-Escape        	Lower
+17	A-space         	client-menu
+18	Print           	scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Screenshots/ ; mirage.....
+19	A-Print         	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Screenshots/ ; mirage ~/Sc.....
+20	A-Tab           	NextWindow
+21	A-S-Tab         	PreviousWindow
+22	C-A-Tab         	NextWindow
+23	W-S-Right       	DirectionalCycleWindows
+24	W-S-Left        	DirectionalCycleWindows
+25	W-S-Up          	DirectionalCycleWindows
+26	W-S-Down        	DirectionalCycleWindows
+27	A-F2            	drun
+28	A-F3            	~/.config/dmenu/dmenu-bind.sh
+29	W-f             	thunar
+30	W-t             	urxvt
+31	W-w             	firefox
+32	W-l             	slimlock
+33	W-e             	geany
+34	W-m             	audacious
+35	W-h             	urxvt -T 'htop task manager' -e htop
+36	W-v             	pavucontrol
+37	XF86AudioMute   	amixer -D pulse set Master toggle
+38	XF86AudioStop   	playerctl pause
+39	XF86AudioPlay   	playerctl play
+40	W-Tab           	client-list-combined-menu
+41	W-space         	root-menu
+42	A-C-q           	root-menu
+43	W-Right         	GrowToEdgeEast
+44	W-Left          	GrowToEdgeWest
+45	W-Down          	GrowToEdgeSouth
+46	W-Up            	GrowToEdgeNorth
+47	W-A-Left        	UnmaximizeFull
+48	W-A-Right       	UnmaximizeFull
+49	A-r             	Resize
+50	A-m             	Move

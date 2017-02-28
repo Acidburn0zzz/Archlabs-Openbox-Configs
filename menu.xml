@@ -408,7 +408,7 @@
 				<item label="man page">
 					<action name="Execute">
 						<command>
-                            termite -T 'man dmenu' -e man dmenu
+                            urxvt -T 'man dmenu' -e man dmenu
                         </command>
 					</action>
 				</item>
@@ -425,7 +425,7 @@
 				<item label="man page">
 					<action name="Execute">
 						<command>
-                            termite -T 'man gmrun' -e man gmrun
+                            urxvt -T 'man gmrun' -e man gmrun
                         </command>
 					</action>
 				</item>
@@ -442,15 +442,15 @@
 				<item label="man xrandr">
 					<action name="Execute">
 						<command>
-                            urxvtsyn -T 'man xrandr' -e man xrandr
+                            urxvt -T 'man xrandr' -e man xrandr
                         </command>
 					</action>
 				</item>
 			</menu>
 		</menu>
 		<menu id="system" label="System">
-			<menu id="install" label="ARCHLabs Extras">
-				<separator label="Install Scripts"/>
+			<menu id="install" label="ARCHLabs Extras One-By-One">
+				<separator label="Install OBO Scripts"/>
 				<item label="Install Audacious Player">
 				<action name="Execute">
 					<execute>termite -e /usr/bin/audacious.sh</execute>
@@ -559,6 +559,19 @@
 				<item label="Install XFBurn">
 				<action name="Execute">
 					<execute>termite -e /usr/bin/xfburn.sh</execute>
+				</action>
+			</item>
+				</menu>
+				<menu id="installmenu" label="ARCHLabs Extras All-In-One">
+				<separator label="Install AIO Script"/>
+				<item label="Install All-In-One Script">
+				<action name="Execute">
+					<execute>urxvt -e /usr/bin/ARCHLabs-extras-AIO.sh</execute>
+				</action>
+			</item>
+			<item label="Edit All-In-One Script">
+				<action name="Execute">
+					<execute>gksudo geany /usr/bin/ARCHLabs-extras-AIO.sh</execute>
 				</action>
 			</item>
 				</menu>

@@ -176,7 +176,7 @@
 			</item>
 			<item label="Openshot">
 				<action name="Execute">
-					<command>openshot</command>
+					<command>openshot-qt</command>
 				</action>
 			</item>
 			<separator label="Utilities"/>
@@ -187,7 +187,7 @@
 			</item>
 			<item label="GTK Record-My-Desktop">
 				<action name="Execute">
-					<command>gtk-recordmydesktop</command>
+					<command>gtk-recordMyDesktop</command>
 				</action>
 			</item>
 			</menu>

@@ -28,7 +28,8 @@ tint2 &
 numlockx &
 
 ## GNOME PolicyKit authentication
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+#/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 ## Volume control for systray
 (sleep 2; volti) &

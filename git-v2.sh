@@ -16,7 +16,7 @@ read input
 
 # Committing to the local repository with a message containing the time details and commit text
 
-git commit -m "Comment : "
+git commit -m "$input"
 
 # Push the local files to github
 

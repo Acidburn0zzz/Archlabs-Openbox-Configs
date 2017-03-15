@@ -268,7 +268,7 @@
 			</menu>
 			<item label="Google Docs">
 				<action name="Execute">
-					<command>chromium https://drive.google.com/</command>
+					<command>exo-open https://drive.google.com/</command>
 				</action>
 			</item>
 			<item label="Gnumeric Spreadsheet">

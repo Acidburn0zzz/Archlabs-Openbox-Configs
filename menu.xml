@@ -103,13 +103,6 @@
 			</item>
 		</menu>
 		<separator/>
-		<menu id="games" label="Games">
-			<item label="Minecraft">
-				<action name="Execute">
-					<command>minecraft</command>
-				</action>
-			</item>
-			</menu>
 		<menu id="graphics" label="Graphics">
 			<item label="Mirage">
 				<action name="Execute">

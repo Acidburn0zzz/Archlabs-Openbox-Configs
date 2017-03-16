@@ -315,6 +315,13 @@
 					</action>
 				</item>
 				<separator/>
+				<item label="Obkey">
+					<action name="Execute">
+						<command>
+                            obkey
+                        </command>
+					</action>
+				</item>				
 				<item label="GUI Menu Editor">
 					<action name="Execute">
 						<command>

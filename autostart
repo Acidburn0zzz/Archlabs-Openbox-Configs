@@ -16,7 +16,7 @@
 #
 xfce-mcs-manager &
 
-xrandr --output HDMI-0 --mode 2560x1440 &
+#xrandr --output HDMI-0 --mode 2560x1440 &
 
 compton -b -c &
 
@@ -62,9 +62,6 @@ xscreensaver -no-splash &
 #pcmanfm --desktop &
 
 #xfce4-panel &
-(sleep 2; caffeine) &
-(sleep 2; docky) &
-(sleep 5; covergloobus) &
 (sleep 5; nm-applet) &
 
 

@@ -134,13 +134,18 @@
 			<menu id="screenshot" label="Screenshooter">
 			<item label="Screenshot in 5">
 				<action name="Execute">
-					<command>scrot -d 5 'ARCHLabs.png' -e  'mv $f ~/Screenshots/ ; mirage ~/Screenshots/$f'</command>
+					<command>scrot -d 5 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</command>
 				</action>
 			</item>
 			<item label="Screenshot in 10">
 				<action name="Execute">
-					<command>scrot -d 10 'ARCHLabs.png' -e  'mv $f ~/Screenshots/ ; mirage ~/Screenshots/$f'</command>
+					<command>scrot -d 10 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</command>
 				</action>
+			</item>
+				<item label="Screenshot With Selection">
+			<action name="Execute">
+				<execute>scrot -s 'Arch.png' -e 'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</execute>
+			</action>
 			</item>
 			</menu>
 			

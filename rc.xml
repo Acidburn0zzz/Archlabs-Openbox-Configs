@@ -423,12 +423,8 @@
       </action>
     </keybind>
     <keybind key="A-F3">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>false</enabled>
-          <name>dmenu-bind</name>
-        </startupnotify>
-        <command>~/.config/dmenu/dmenu-bind.sh</command>
+       <action name="Execute">
+        <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</command>
       </action>
     </keybind>
     <keybind key="W-f">
@@ -460,10 +456,6 @@
     </keybind>
     <keybind key="W-l">
       <action name="Execute">
-        <startupnotify>
-          <enabled>false</enabled>
-          <name>Lock screen</name>
-        </startupnotify>
         <command>slimlock</command>
       </action>
     </keybind>

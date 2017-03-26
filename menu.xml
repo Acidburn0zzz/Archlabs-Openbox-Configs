@@ -337,13 +337,6 @@
                         </command>
 					</action>
 				</item>
-				<item label="Obmenu Generator">
-					<action name="Execute">
-						<command>
-                            obmenu-generator
-                        </command>
-					</action>
-				</item>
 				<item label="GUI Config Tool">
 					<action name="Execute">
 						<command>
@@ -478,6 +471,13 @@
                     </command>
 				</action>
 			</item>
+			<item label="Pamac Package Updater">
+				<action name="Execute">
+					<command>
+                        pamac-updater
+                    </command>
+				</action>
+			</item>			
 			<separator/>
 			<item label="File Manager As Root">
 				<action name="Execute">

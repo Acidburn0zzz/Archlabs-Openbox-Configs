@@ -174,7 +174,7 @@
 			</item>
 			<item label="Openshot">
 				<action name="Execute">
-					<command>openshot</command>
+					<command>openshot-qt</command>
 				</action>
 			</item>
 			<separator label="Utilities"/>
@@ -279,12 +279,11 @@
 				<action name="Execute">
 					<command>libreoffice-printeradmin</command>
 				</action>
-			</item>
-					
+			</item>		
 			</menu>
 			<item label="Google Docs">
 				<action name="Execute">
-					<command>chromium https://drive.google.com/</command>
+					<command>exo-open https://drive.google.com/</command>
 				</action>
 			</item>
 			<item label="Gnumeric Spreadsheet">
@@ -312,21 +311,21 @@
 				<item label="Edit menu.xml">
 					<action name="Execute">
 						<command>
-                            geany ~/.config/openbox/menu.xml
+                            exo-open ~/.config/openbox/menu.xml
                         </command>
 					</action>
 				</item>
 				<item label="Edit rc.xml">
 					<action name="Execute">
 						<command>
-                            geany ~/.config/openbox/rc.xml
+                            exo-open ~/.config/openbox/rc.xml
                         </command>
 					</action>
 				</item>
 				<item label="Edit autostart">
 					<action name="Execute">
 						<command>
-                            geany ~/.config/openbox/autostart
+                            exo-open ~/.config/openbox/autostart
                         </command>
 					</action>
 				</item>
@@ -338,7 +337,7 @@
                         </command>
 					</action>
 				</item>
-				<item label="Obmeu Generator">
+				<item label="Obmenu Generator">
 					<action name="Execute">
 						<command>
                             obmenu-generator
@@ -423,7 +422,7 @@
 				<item label="Dmenu">
 					<action name="Execute">
 						<command>
-                           dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'NotoMonoRegular:bold:pixelsize=12'
+                           dmenu_run -i -nb '#151617' -nf '#d8d8d8' -sb '#d8d8d8' -sf '#151617' -fn 'NotoMonoRegular:bold:pixelsize=14'
                         </command>
 					</action>
 				</item>
@@ -440,7 +439,7 @@
 				<item label="Edit Config File">
 					<action name="Execute">
 						<command>
-                            geany ~/.gmrunrc
+                            exo-open ~/.gmrunrc
                         </command>
 					</action>
 				</item>
@@ -472,8 +471,6 @@
 			</menu>
 		</menu>
 		<menu id="system" label="System">
-			
-			
 			<item label="Pamac Package Manager">
 				<action name="Execute">
 					<command>

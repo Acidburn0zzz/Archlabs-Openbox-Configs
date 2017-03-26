@@ -81,7 +81,7 @@
 					<command>catfish</command>
 				</action>
 			</item>
-				<item label="URXVT Terminal">
+			<item label="URXVT Terminal">
 				<action name="Execute">
 					<command>urxvt</command>
 				</action>
@@ -132,26 +132,25 @@
 			</item>
 			<separator/>
 			<menu id="screenshot" label="Screenshooter">
-			<item label="Screenshot in 5">
-				<action name="Execute">
-					<command>scrot -d 5 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</command>
-				</action>
-			</item>
-			<item label="Screenshot in 10">
-				<action name="Execute">
-					<command>scrot -d 10 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</command>
-				</action>
-			</item>
+				<item label="Screenshot in 5">
+					<action name="Execute">
+						<command>scrot -d 5 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</command>
+					</action>
+				</item>
+				<item label="Screenshot in 10">
+					<action name="Execute">
+						<command>scrot -d 10 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</command>
+					</action>
+				</item>
 				<item label="Screenshot With Selection">
-			<action name="Execute">
-				<execute>scrot -s 'ARCHLabs-Selection.png' -e 'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</execute>
-			</action>
-			</item>
+					<action name="Execute">
+						<execute>scrot -s 'ARCHLabs-Selection.png' -e 'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</execute>
+					</action>
+				</item>
 			</menu>
-			
-			</menu>
-			<menu id="multimedia" label="Multimedia">
-				<item label="VLC">
+		</menu>
+		<menu id="multimedia" label="Multimedia">
+			<item label="VLC">
 				<action name="Execute">
 					<command>vlc</command>
 				</action>
@@ -199,7 +198,7 @@
 					<command>urxvt -e alsamixer</command>
 				</action>
 			</item>
-			</menu>
+		</menu>
 		<menu id="network" label="Network">
 			<item label="Chromium Browser">
 				<action name="Execute">
@@ -215,7 +214,7 @@
 				<action name="Execute">
 					<command>opera</command>
 				</action>
-			</item>			
+			</item>
 			<item label="Filezilla FTP Client">
 				<action name="Execute">
 					<command>filezilla</command>
@@ -237,49 +236,49 @@
 				</action>
 			</item>
 			<separator label="Services"/>
-				<item label="Dropbox">
+			<item label="Dropbox">
 				<action name="Execute">
 					<command>dropbox</command>
 				</action>
 			</item>
 		</menu>
-			<menu id="office" label="Office">
+		<menu id="office" label="Office">
 			<menu id="office menu" label="Libre Office">
-			<item label="Libre Office Base">
-				<action name="Execute">
-					<command>libreoffice -base</command>
-				</action>
-			</item>
-			<item label="Libre Office Calc">
-				<action name="Execute">
-					<command>libreoffice -calc</command>
-				</action>
-			</item>
-			<item label="Libre Office Draw">
-				<action name="Execute">
-					<command>libreoffice -draw</command>
-				</action>
-			</item>
-			<item label="Libre Office Impress">
-				<action name="Execute">
-					<command>libreoffice -impress</command>
-				</action>
-			</item>
-			<item label="Libre Office Math">
-				<action name="Execute">
-					<command>libreoffice -math</command>
-				</action>
-			</item>
-			<item label="Libre Office Writer">
-				<action name="Execute">
-					<command>libreoffice -writer</command>
-				</action>
-			</item>			
-			<item label="Libre Office Printer Admin">
-				<action name="Execute">
-					<command>libreoffice-printeradmin</command>
-				</action>
-			</item>		
+				<item label="Libre Office Base">
+					<action name="Execute">
+						<command>libreoffice -base</command>
+					</action>
+				</item>
+				<item label="Libre Office Calc">
+					<action name="Execute">
+						<command>libreoffice -calc</command>
+					</action>
+				</item>
+				<item label="Libre Office Draw">
+					<action name="Execute">
+						<command>libreoffice -draw</command>
+					</action>
+				</item>
+				<item label="Libre Office Impress">
+					<action name="Execute">
+						<command>libreoffice -impress</command>
+					</action>
+				</item>
+				<item label="Libre Office Math">
+					<action name="Execute">
+						<command>libreoffice -math</command>
+					</action>
+				</item>
+				<item label="Libre Office Writer">
+					<action name="Execute">
+						<command>libreoffice -writer</command>
+					</action>
+				</item>
+				<item label="Libre Office Printer Admin">
+					<action name="Execute">
+						<command>libreoffice-printeradmin</command>
+					</action>
+				</item>
 			</menu>
 			<item label="Google Docs">
 				<action name="Execute">
@@ -477,7 +476,7 @@
                         pamac-updater
                     </command>
 				</action>
-			</item>			
+			</item>
 			<separator/>
 			<item label="File Manager As Root">
 				<action name="Execute">
@@ -508,7 +507,7 @@
                     </command>
 				</action>
 			</item>
-			</menu>
+		</menu>
 		<separator/>
 		<menu execute="/usr/bin/al-help-pipemenu" id="help" label="Help &amp; Resources"/>
 		<menu execute="al-kb-pipemenu" id="keybinds" label="Display Keybinds"/>

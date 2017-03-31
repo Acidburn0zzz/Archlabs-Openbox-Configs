@@ -155,11 +155,6 @@
 				</action>
 			</item>
 			<separator label="Editors"/>
-			<item label="Audacity">
-				<action name="Execute">
-					<command>audacity</command>
-				</action>
-			</item>
 			<item label="Openshot">
 				<action name="Execute">
 					<command>openshot-qt</command>

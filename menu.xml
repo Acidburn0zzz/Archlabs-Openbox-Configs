@@ -154,12 +154,6 @@
 					<command>audacious</command>
 				</action>
 			</item>
-			<separator label="Editors"/>
-			<item label="Openshot">
-				<action name="Execute">
-					<command>openshot-qt</command>
-				</action>
-			</item>
 			<separator label="Utilities"/>
 			<item label="XFBurn">
 				<action name="Execute">

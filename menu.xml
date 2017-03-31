@@ -154,11 +154,6 @@
 					<command>audacious</command>
 				</action>
 			</item>
-			<item label="SM Player">
-				<action name="Execute">
-					<command>smplayer</command>
-				</action>
-			</item>
 			<separator label="Editors"/>
 			<item label="Audacity">
 				<action name="Execute">

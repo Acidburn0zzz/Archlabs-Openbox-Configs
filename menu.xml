@@ -457,14 +457,6 @@
                         </command>
 					</action>
 				</item>
-				<separator label="Help?"/>
-				<item label="man xrandr">
-					<action name="Execute">
-						<command>
-                            urxvtsyn -T 'man xrandr' -e man xrandr
-                        </command>
-					</action>
-				</item>
 			</menu>
 		</menu>
 		<menu id="system" label="System">

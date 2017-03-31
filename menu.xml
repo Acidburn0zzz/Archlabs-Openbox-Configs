@@ -49,14 +49,14 @@
 		<item label="Web Browser">
 			<action name="Execute">
 				<command>
-                    chromium
+                    exo-open --launch webbrowser
                 </command>
 			</action>
 		</item>
 		<item label="File Manager">
 			<action name="Execute">
 				<command>
-                    thunar
+                    exo-open --launch filemanager
                 </command>
 			</action>
 		</item>
@@ -233,12 +233,6 @@
 			<item label="Remote Filesystems">
 				<action name="Execute">
 					<command>gigolo</command>
-				</action>
-			</item>
-			<separator label="Services"/>
-			<item label="Dropbox">
-				<action name="Execute">
-					<command>dropbox</command>
 				</action>
 			</item>
 		</menu>

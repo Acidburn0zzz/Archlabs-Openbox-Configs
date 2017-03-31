@@ -183,11 +183,6 @@
 					<command>firefox</command>
 				</action>
 			</item>
-			<item label="Opera Browser">
-				<action name="Execute">
-					<command>opera</command>
-				</action>
-			</item>
 			<item label="Filezilla FTP Client">
 				<action name="Execute">
 					<command>filezilla</command>

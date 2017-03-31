@@ -427,23 +427,6 @@
 					</action>
 				</item>
 			</menu>
-			<menu id="gmrunconfig" label="gmrun">
-				<item label="Edit Config File">
-					<action name="Execute">
-						<command>
-                            exo-open ~/.gmrunrc
-                        </command>
-					</action>
-				</item>
-				<separator label="Help?"/>
-				<item label="man page">
-					<action name="Execute">
-						<command>
-                            termite -T 'man gmrun' -e man gmrun
-                        </command>
-					</action>
-				</item>
-			</menu>
 			<menu id="DisplaySettings" label="Display">
 				<item label="ARandR Screen Layout Editor">
 					<action name="Execute">

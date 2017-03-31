@@ -387,14 +387,6 @@
                         </command>
 					</action>
 				</item>
-				<separator label="Help?"/>
-				<item label="man page">
-					<action name="Execute">
-						<command>
-                            termite -T 'man dmenu' -e man dmenu
-                        </command>
-					</action>
-				</item>
 			</menu>
 			<menu id="DisplaySettings" label="Display">
 				<item label="ARandR Screen Layout Editor">

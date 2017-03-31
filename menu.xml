@@ -113,11 +113,6 @@
 					<command>gimp</command>
 				</action>
 			</item>
-			<item label="Inkscape">
-				<action name="Execute">
-					<command>inkscape</command>
-				</action>
-			</item>
 			<item label="Viewnior">
 				<action name="Execute">
 					<command>viewnior</command>

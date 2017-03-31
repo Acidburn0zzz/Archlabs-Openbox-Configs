@@ -160,11 +160,6 @@
 					<command>xfburn</command>
 				</action>
 			</item>
-			<item label="GTK Record-My-Desktop">
-				<action name="Execute">
-					<command>gtk-recordMyDesktop</command>
-				</action>
-			</item>
 			<separator label="Volume Control"/>
 			<item label="Pulse Audio Preferences">
 				<action name="Execute">

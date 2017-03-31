@@ -102,7 +102,6 @@
 				</action>
 			</item>
 		</menu>
-		<separator/>
 		<menu id="graphics" label="Graphics">
 			<item label="Mirage">
 				<action name="Execute">

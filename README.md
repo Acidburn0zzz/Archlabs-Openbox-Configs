@@ -12,6 +12,3 @@ excluding
 	README.md
 	git-vx.sh
 	.git (folder)
-
-
-

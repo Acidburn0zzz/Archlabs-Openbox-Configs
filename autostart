@@ -16,8 +16,6 @@
 #
 xfce-mcs-manager &
 
-#xrandr --output HDMI-0 --mode 2560x1440 &
-
 compton -b --config ~/.config/compton.conf &
 
 tint2 &
@@ -39,9 +37,6 @@ xfce4-volumed &
 ## Turn off/on System Beep
 xset b off
 
-## Volume control for systray
-#(sleep 2; volumeicon) &
-
 ## Enable power management
 xfce4-power-manager &
 
@@ -51,16 +46,9 @@ xfce4-power-manager &
 ## XFCE4 Settings
 xfsettingsd &
 
-
 ## Start xscreensaver (light-locker now used by default, run via XDG autostart.)
 xscreensaver -no-splash &
 
-#lxsession &
-
-##pcmanfm desktop
-#pcmanfm --desktop &
-
-#xfce4-panel &
 (sleep 5; nm-applet) &
 
 

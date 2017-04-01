@@ -52,4 +52,4 @@ xscreensaver -no-splash &
 (sleep 5; nm-applet) &
 
 
- (sleep 2s && al-conky-session --autostart) &
+(sleep 2s && al-conky-session --autostart) &

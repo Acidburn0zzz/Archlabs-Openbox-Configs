@@ -1,3 +1,17 @@
-# Openbox-Configs
+# Openbox Configuration folder
 
-All configs need to be placed in ~/.config/openbox/
+
+Destination : 
+
+content of this github needs to be placed in  (including folders)
+
+	~/.config/openbox/
+
+excluding 
+
+	README.md
+	git-vx.sh
+	.git (folder)
+
+
+

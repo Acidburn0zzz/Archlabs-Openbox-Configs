@@ -18,7 +18,7 @@ xfce-mcs-manager &
 
 #xrandr --output HDMI-0 --mode 2560x1440 &
 
-compton -b -c &
+compton -b --config ~/.config/compton.conf &
 
 tint2 &
 

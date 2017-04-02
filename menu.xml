@@ -103,9 +103,9 @@
 			</item>
 		</menu>
 		<menu id="graphics" label="Graphics">
-			<item label="Mirage">
+			<item label="Gpicview">
 				<action name="Execute">
-					<command>mirage</command>
+					<command>gpicview</command>
 				</action>
 			</item>
 			<item label="GIMP">
@@ -128,17 +128,17 @@
 			<menu id="screenshot" label="Screenshooter">
 				<item label="Screenshot in 5">
 					<action name="Execute">
-						<command>scrot -d 5 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</command>
+						<command>scrot -d 5 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; gpicviewe ~/Pictures/$f'</command>
 					</action>
 				</item>
 				<item label="Screenshot in 10">
 					<action name="Execute">
-						<command>scrot -d 10 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</command>
+						<command>scrot -d 10 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
 					</action>
 				</item>
 				<item label="Screenshot With Selection">
 					<action name="Execute">
-						<execute>scrot -s 'ARCHLabs-Selection.png' -e 'mv $f ~/Pictures/ ; mirage ~/Pictures/$f'</execute>
+						<execute>scrot -s 'ARCHLabs-Selection.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</execute>
 					</action>
 				</item>
 			</menu>

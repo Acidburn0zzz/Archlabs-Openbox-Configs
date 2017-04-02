@@ -379,7 +379,7 @@
                     </command>
 				</action>
 			</item>
-			<menu id="dmenu" label="dmenu">
+			<menu id="dmenu" label="Dmenu">
 				<item label="Dmenu">
 					<action name="Execute">
 						<command>

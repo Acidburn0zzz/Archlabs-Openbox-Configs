@@ -128,7 +128,7 @@
 			<menu id="screenshot" label="Screenshooter">
 				<item label="Screenshot in 5">
 					<action name="Execute">
-						<command>scrot -d 5 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; gpicviewe ~/Pictures/$f'</command>
+						<command>scrot -d 5 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
 					</action>
 				</item>
 				<item label="Screenshot in 10">

@@ -331,13 +331,6 @@
 			<menu execute="/usr/bin/al-conky-pipemenu" id="pipe-conkymenu" label="Conky"/>
 			<menu execute="/usr/bin/al-tint2-pipemenu" id="pipe-tint2menu" label="Tint2"/>
 			<separator/>
-			<item label="XFCE4 Appearance">
-				<action name="Execute">
-					<command>
-                        xfce4-appearance-settings
-                    </command>
-				</action>
-			</item>
 			<item label="Tint2 GUI">
 				<action name="Execute">
 					<command>

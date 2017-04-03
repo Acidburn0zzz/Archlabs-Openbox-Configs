@@ -21,7 +21,7 @@ compton -b --config ~/.config/compton.conf &
 tint2 &
 
 # Set background image
-(sleep 5; nitrogen --restore) &
+(sleep 1; nitrogen --restore) &
 
 numlockx &
 

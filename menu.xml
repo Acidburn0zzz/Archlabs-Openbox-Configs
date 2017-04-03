@@ -331,6 +331,13 @@
 			<menu execute="/usr/bin/al-conky-pipemenu" id="pipe-conkymenu" label="Conky"/>
 			<menu execute="/usr/bin/al-tint2-pipemenu" id="pipe-tint2menu" label="Tint2"/>
 			<separator/>
+			<item label="Lxappearance">
+				<action name="Execute">
+					<command>
+                       lxappearance
+                    </command>
+				</action>
+			</item>
 			<item label="Tint2 GUI">
 				<action name="Execute">
 					<command>

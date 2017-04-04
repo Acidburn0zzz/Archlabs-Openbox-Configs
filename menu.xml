@@ -458,7 +458,7 @@
 		<item label="Exit">
 			<action name="Execute">
 				<command>
-                    ob-logout
+                    oblogout
                 </command>
 			</action>
 		</item>

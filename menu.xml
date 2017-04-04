@@ -458,7 +458,7 @@
 		<item label="Exit">
 			<action name="Execute">
 				<command>
-                    al-exit
+                    ob-logout
                 </command>
 			</action>
 		</item>

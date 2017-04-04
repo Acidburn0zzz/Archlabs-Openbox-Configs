@@ -93,7 +93,7 @@
 			</item>
 			<item label="Task Manager (htop)">
 				<action name="Execute">
-					<command>urxvt -T 'htop task manager' -e htop</command>
+					<command>termite -e 'htop task manager' -e htop</command>
 				</action>
 			</item>
 			<item label="ALOB Themes Manager">
@@ -168,7 +168,7 @@
 			</item>
 			<item label="ALSA Preferences">
 				<action name="Execute">
-					<command>urxvt -e alsamixer</command>
+					<command>termite -e alsamixer</command>
 				</action>
 			</item>
 		</menu>

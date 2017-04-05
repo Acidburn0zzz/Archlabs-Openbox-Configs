@@ -658,7 +658,7 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleShade"/>
+        <action name="ToggleMaximizeFull"/>
       </mousebind>
       <mousebind button="Middle" action="Press">
         <action name="Lower"/>

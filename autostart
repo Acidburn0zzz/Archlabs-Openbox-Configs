@@ -47,7 +47,7 @@ xfce4-power-manager &
 xfsettingsd &
 
 ## Start xscreensaver (light-locker now used by default, run via XDG autostart.)
-xscreensaver -no-splash &
+#xscreensaver -no-splash &
 
 (sleep 5; nm-applet) &
 

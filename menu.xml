@@ -343,13 +343,6 @@
                     </command>
 				</action>                    			
 			</item>
-             <item label="Power Management">
-				<action name="Execute">
-					<command>
-                        xfce4-power-manager-settings
-                    </command>
-				</action>
-			</item>
 			<item label="Notifications">
 				<action name="Execute">
 					<command>

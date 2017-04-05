@@ -362,24 +362,20 @@
                     </command>
 				</action>
 			</item>
-			<menu id="dmenu" label="Dmenu">
-				<item label="Dmenu">
-					<action name="Execute">
-						<command>
-                           dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
-                        </command>
-					</action>
-				</item>
-			</menu>
-			<menu id="DisplaySettings" label="Display">
-				<item label="ARandR Screen Layout Editor">
-					<action name="Execute">
-						<command>
-                            arandr
-                        </command>
-					</action>
-				</item>
-			</menu>
+			<item label="Dmenu">
+				<action name="Execute">
+					<command>
+                          dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+                       </command>
+				</action>
+			</item>
+			<item label="ARandR Screen Layout Editor">
+				<action name="Execute">
+					<command>
+                           arandr
+                       </command>
+				</action>
+			</item>
 		</menu>
 		<menu id="system" label="System">
 			<item label="Pamac Package Manager">

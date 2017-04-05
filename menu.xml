@@ -372,6 +372,13 @@
 				</action>
 			</item>
 			<separator/>
+			<item label="Preferred Applications">
+				<action name="Execute">
+					<command>
+                        exo-preferred-applications
+                    </command>
+				</action>
+			</item>			
 			<item label="Power Management">
 				<action name="Execute">
 					<command>

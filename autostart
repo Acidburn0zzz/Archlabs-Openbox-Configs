@@ -30,6 +30,7 @@ numlockx &
 
 ## Volume control for systray
 #(sleep 2; volti) &
+(sleep 2; volumeicon) &
 
 ## Volume keys daemon
 #xfce4-volumed &

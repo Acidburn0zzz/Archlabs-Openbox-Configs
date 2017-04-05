@@ -29,7 +29,7 @@ numlockx &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 ## Volume control for systray
-(sleep 2; volti) &
+#(sleep 2; volti) &
 
 ## Volume keys daemon
 xfce4-volumed &

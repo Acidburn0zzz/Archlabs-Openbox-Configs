@@ -339,7 +339,11 @@
 			<item label="Choose Wallpaper">
 				<action name="Execute">
 					<command>
-                        nitrogen			<item label="Power Management">
+                        nitrogen
+                    </command>
+				</action>                    			
+			</item>
+             <item label="Power Management">
 				<action name="Execute">
 					<command>
                         xfce4-power-manager-settings
@@ -351,7 +355,9 @@
 			</item>
 			<item label="Notifications">
 				<action name="Execute">
-					<command>xfce4-notifyd-config</command>
+					<command>
+						xfce4-notifyd-config
+					</command>
 				</action>
 			</item>
 			<separator/>
@@ -372,15 +378,15 @@
 			<item label="Dmenu">
 				<action name="Execute">
 					<command>
-                          dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
-                       </command>
+                        dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+                     </command>
 				</action>
 			</item>
 			<item label="ARandR Screen Layout Editor">
 				<action name="Execute">
 					<command>
-                           arandr
-                       </command>
+                        arandr
+                    </command>
 				</action>
 			</item>
 		</menu>

@@ -1,35 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
-	<menu id="exit-menu" label="Exit">
-		<item label="Log out">
-			<action name="Execute">
-				<command>
-                    al-exit --logout
-                </command>
-			</action>
-		</item>
-		<item label="Suspend">
-			<action name="Execute">
-				<command>
-                    al-exit --suspend
-                </command>
-			</action>
-		</item>
-		<item label="Reboot">
-			<action name="Execute">
-				<command>
-                    al-exit --reboot
-                </command>
-			</action>
-		</item>
-		<item label="Power off">
-			<action name="Execute">
-				<command>
-                    al-exit --poweroff
-                </command>
-			</action>
-		</item>
-	</menu>
 	<menu id="root-menu" label="Openbox 3">
 		<item label="Run Program">
 			<action name="Execute">
@@ -362,7 +332,13 @@
 			<item label="Choose Wallpaper">
 				<action name="Execute">
 					<command>
-                        nitrogen
+                        nitrogen			<item label="Power Management">
+				<action name="Execute">
+					<command>
+                        xfce4-power-manager-settings
+                    </command>
+				</action>
+			</item>
                     </command>
 				</action>
 			</item>

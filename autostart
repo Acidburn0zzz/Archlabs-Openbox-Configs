@@ -32,7 +32,7 @@ numlockx &
 #(sleep 2; volti) &
 
 ## Volume keys daemon
-xfce4-volumed &
+#xfce4-volumed &
 
 ## Turn off/on System Beep
 xset b off

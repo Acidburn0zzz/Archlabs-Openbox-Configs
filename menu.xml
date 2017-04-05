@@ -308,6 +308,13 @@
                     </command>
 				</action>
 			</item>
+			<item label="Xfce4 Appearance">
+				<action name="Execute">
+					<command>
+                       xfce4-appearance-settings
+                    </command>
+				</action>
+			</item>
 			<item label="Tint2 GUI">
 				<action name="Execute">
 					<command>

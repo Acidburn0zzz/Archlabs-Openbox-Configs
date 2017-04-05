@@ -350,7 +350,6 @@
                     </command>
 				</action>
 			</item>
-			</item>
 			<item label="Notifications">
 				<action name="Execute">
 					<command>

@@ -442,11 +442,7 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <startupnotify>
-          <enabled>false</enabled>
-          <name>Terminal</name>
-        </startupnotify>
-        <command>urxvt</command>
+        <command>termite</command>
       </action>
     </keybind>
     <keybind key="W-w">

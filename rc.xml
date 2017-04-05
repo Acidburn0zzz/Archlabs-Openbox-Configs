@@ -431,6 +431,11 @@
         <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</command>
       </action>
     </keybind>
+    <keybind key="W-S-d">
+      <action name="Execute">
+        <command>dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'</command>
+      </action>
+    </keybind>    
     <keybind key="W-f">
       <action name="Execute">
         <startupnotify>

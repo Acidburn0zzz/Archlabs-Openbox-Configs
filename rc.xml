@@ -459,6 +459,11 @@
         <command>oblogout</command>
       </action>
     </keybind>
+    <keybind key="W-Escape">
+      <action name="Execute">
+        <command>xkill</command>
+      </action>
+    </keybind>    
     <keybind key="XF86AudioMute">
       <action name="Execute">
         <command>amixer -D pulse set Master toggle</command>

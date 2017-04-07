@@ -268,13 +268,6 @@
 					</action>
 				</item>
 				<separator/>
-				<item label="GUI Menu Editor">
-					<action name="Execute">
-						<command>
-                            obmenu
-                        </command>
-					</action>
-				</item>
 				<item label="GUI Config Tool">
 					<action name="Execute">
 						<command>

@@ -1,54 +1,109 @@
-2017-02-05	rc.xml KEYBINDS
+2017-04-07	rc.xml KEYBINDS
 -------------------------------
 
- 0	C-A-Left        	GoToDesktop
- 1	C-A-Right       	GoToDesktop
- 2	C-A-Up          	GoToDesktop
- 3	C-A-Down        	GoToDesktop
- 4	S-A-Left        	SendToDesktop
- 5	S-A-Right       	SendToDesktop
- 6	S-A-Up          	SendToDesktop
- 7	S-A-Down        	SendToDesktop
- 8	W-F1            	GoToDesktop
- 9	W-F2            	GoToDesktop
-10	W-F3            	GoToDesktop
-11	W-F4            	GoToDesktop
-12	W-d             	ToggleShowDesktop
-13	A-F4            	Close
-14	A-F5            	Iconify
-15	A-F6            	ToggleMaximize
-16	A-Escape        	Lower
-17	A-space         	client-menu
-18	Print           	scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Screenshots/ ; mirage.....
-19	A-Print         	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Screenshots/ ; mirage ~/Sc.....
-20	A-Tab           	NextWindow
-21	A-S-Tab         	PreviousWindow
-22	C-A-Tab         	NextWindow
-23	W-S-Right       	DirectionalCycleWindows
-24	W-S-Left        	DirectionalCycleWindows
-25	W-S-Up          	DirectionalCycleWindows
-26	W-S-Down        	DirectionalCycleWindows
-27	A-F2            	drun
-28	A-F3            	~/.config/dmenu/dmenu-bind.sh
-29	W-f             	thunar
-30	W-t             	urxvt
-31	W-w             	firefox
-32	W-l             	slimlock
-33	W-e             	geany
-34	W-m             	audacious
-35	W-h             	urxvt -T 'htop task manager' -e htop
-36	W-v             	pavucontrol
-37	XF86AudioMute   	amixer -D pulse set Master toggle
-38	XF86AudioStop   	playerctl pause
-39	XF86AudioPlay   	playerctl play
-40	W-Tab           	client-list-combined-menu
-41	W-space         	root-menu
-42	A-C-q           	root-menu
-43	W-Right         	GrowToEdgeEast
-44	W-Left          	GrowToEdgeWest
-45	W-Down          	GrowToEdgeSouth
-46	W-Up            	GrowToEdgeNorth
-47	W-A-Left        	UnmaximizeFull
-48	W-A-Right       	UnmaximizeFull
-49	A-r             	Resize
-50	A-m             	Move
+ 0	C-S-BackSpace   	openbox --restart
+ 1	W-KP_1          	UnmaximizeFull
+ 2	W-KP_2          	UnmaximizeFull
+ 3	W-KP_3          	UnmaximizeFull
+ 4	W-KP_4          	UnmaximizeFull
+ 5	W-KP_5          	MaximizeFull
+ 6	W-KP_6          	UnmaximizeFull
+ 7	W-KP_7          	UnmaximizeFull
+ 8	W-KP_8          	UnmaximizeFull
+ 9	W-KP_9          	UnmaximizeFull
+10	C-A-Right       	DesktopRight
+11	C-A-Left        	GoToDesktop
+12	C-A-Up          	GoToDesktop
+13	C-A-Down        	GoToDesktop
+14	A-Tab           	NextWindow
+15	A-S-Tab         	PreviousWindow
+16	W-S-Right       	DirectionalCycleWindows
+17	W-S-Left        	DirectionalCycleWindows
+18	W-S-Up          	DirectionalCycleWindows
+19	W-S-Down        	DirectionalCycleWindows
+20	S-A-Left        	SendToDesktop
+21	S-A-Right       	SendToDesktop
+22	S-A-Up          	SendToDesktop
+23	S-A-Down        	SendToDesktop
+24	A-Escape        	Lower
+25	A-space         	client-menu
+26	XF86AudioRaiseVolume	amixer -D pulse sset Master '5%+'
+27	XF86AudioLowerVolume	amixer -D pulse sset Master '5%-'
+28	XF86AudioMute   	amixer -D pulse set Master toggle
+29	XF86AudioStop   	playerctl pause
+30	XF86AudioPlay   	playerctl play-pause
+31	XF86AudioPrev   	playerctl previous
+32	XF86AudioNext   	playerctl next
+33	XF86MonBrightnessUp	xbacklight +10
+34	XF86MonBrightnessDown	xbacklight -10
+35	Print           	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pic.....
+36	A-Print         	scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ ; gpicview .....
+37	C-Print         	xfce4-screenshooter
+38	A-F2            	gmrun
+39	A-F3            	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'N.....
+40	W-S-d           	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'N.....
+41	A-F4            	Close
+42	A-F5            	Iconify
+43	A-F6            	ToggleMaximize
+44	A-F8            	ToggleDecorations
+45	W-d             	ToggleShowDesktop
+46	W-b             	ToggleDecorations
+47	W-f             	thunar
+48	W-t             	termite
+49	W-w             	firefox
+50	W-l             	slimlock
+51	W-e             	geany
+52	W-m             	audacious
+53	W-h             	urxvt -T 'htop task manager' -e htop
+54	W-v             	pavucontrol
+55	W-x             	oblogout
+56	W-Escape        	xkill
+57	W-Tab           	client-list-combined-menu
+58	W-space         	root-menu
+59	W-Right         	UnmaximizeFull
+60	W-Left          	UnmaximizeFull
+61	W-Up            	MaximizeFull
+62	W-Down          	UnmaximizeFull
+63	W-A-Left        	UnmaximizeFull
+64	W-A-Right       	UnmaximizeFull
+65	A-r             	Resize
+66	A-m             	Move
+67	A-t             	variety -t
+68	A-f             	variety -f
+69	A-p             	variety -p
+70	A-Left          	variety -p
+71	A-n             	variety -n
+72	A-Right         	variety -n
+73	A-Down          	variety --resume
+74	A-Up            	variety --pause
+75	W-Pause         	oblogout
+76	S-W-q           	Close
+77	W-Return        	termite
+78	S-W-Return      	thunar
+79	W-F1            	firefox
+80	W-F2            	subl3
+81	W-F3            	inkscape
+82	W-F4            	gimp
+83	W-F5            	meld
+84	W-F6            	vlc
+85	W-F7            	virtualbox
+86	W-F8            	thunar
+87	W-F9            	evolution
+88	W-F10           	spotify
+89	C-S-Escape      	xfce4-taskmanager
+90	C-A-q           	root-menu
+91	C-A-m           	xfce4-settings-manager
+92	C-A-k           	obkey
+93	C-A-a           	xfce4-appfinder
+94	C-A-T           	termite
+95	C-A-d           	ToggleShowDesktop
+96	C-A-V           	vivaldi-stable
+97	C-A-B           	thunar
+98	C-A-W           	subl3
+99	C-A-S           	spotify
+100	C-A-C           	catfish
+101	C-A-i           	nitrogen
+102	C-A-u           	obconf
+103	C-A-F           	firefox
+104	W-s             	mintstick -m iso
+105	C-A-N           	nemo --quit

@@ -1109,7 +1109,7 @@
     <hideDelay>200</hideDelay>
     <!-- if a press-release lasts longer than this setting (in milliseconds), the
        menu is hidden again -->
-    <middle>no</middle>
+    <middle>yes</middle>
     <!-- center submenus vertically about the parent entry -->
     <submenuShowDelay>100</submenuShowDelay>
     <!-- time to delay before showing a submenu after hovering over the parent

@@ -706,16 +706,6 @@
         <command>firefox</command>
       </action>
     </keybind>
-    <keybind key="W-s">
-      <action name="Execute">
-        <command>mintstick -m iso</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-N">
-      <action name="Execute">
-        <command>nemo --quit</command>
-      </action>
-    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>

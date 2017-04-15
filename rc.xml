@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
@@ -296,24 +295,16 @@
       <action name="DirectionalCycleWindows"/>
     </keybind>
     <keybind key="S-A-Left">
-      <action name="SendToDesktop">
-        <desktop>1</desktop>
-      </action>
+      <action name="SendToDesktopLeft"/>
     </keybind>
     <keybind key="S-A-Right">
-      <action name="SendToDesktop">
-        <desktop>2</desktop>
-      </action>
+      <action name="SendToDesktopRight"/>
     </keybind>
     <keybind key="S-A-Up">
-      <action name="SendToDesktop">
-        <desktop>1</desktop>
-      </action>
+      <action name="SendToDesktopUp"/>
     </keybind>
     <keybind key="S-A-Down">
-      <action name="SendToDesktop">
-        <desktop>2</desktop>
-      </action>
+      <action name="SendToDesktopDown"/>
     </keybind>
     <keybind key="A-Escape">
       <action name="Lower"/>

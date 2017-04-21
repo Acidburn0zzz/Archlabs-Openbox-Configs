@@ -11,6 +11,7 @@
 #
 ##################################################################################################################
 
+echo "Do not just run this. Examine and judge. Run at own risk."
 
 package="linux-lts"
 
@@ -60,6 +61,7 @@ else
 	fi
 
 fi
+
 
 sudo grub-install --target=i386-pc --recheck /dev/sda
 

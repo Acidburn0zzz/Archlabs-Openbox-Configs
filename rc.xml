@@ -178,7 +178,7 @@
     <chainQuitKey>C-g</chainQuitKey>
     <keybind key="C-S-BackSpace">
       <action name="Execute">
-        <command>openbox --restart</command>
+        <command>openbox --reconfigure</command>
       </action>
     </keybind>
     <keybind key="W-KP_1">

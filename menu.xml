@@ -118,9 +118,9 @@
 					<command>vlc</command>
 				</action>
 			</item>
-			<item label="Audacious">
+			<item label="Deadbeef">
 				<action name="Execute">
-					<command>audacious</command>
+					<command>deadbeef</command>
 				</action>
 			</item>
 			<item label="XFBurn">

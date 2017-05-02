@@ -23,7 +23,7 @@ tint2 &
 # Set background image
 (sleep 1; nitrogen --restore) &
 
-numlockx &
+#numlockx &
 
 ## GNOME PolicyKit authentication
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &

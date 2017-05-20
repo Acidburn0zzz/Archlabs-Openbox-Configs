@@ -72,10 +72,16 @@ echo "Downloading the files from github to tmp directory"
 
 git clone https://github.com/ARCHLabs/Archlabs-Conky-Collection /tmp/archlabs-conky-collection
 
-echo "################################################################"
-echo "Check if there is a ~./config/conky folder else make one"
-# if there is no hidden folder conky then make one
-[ -d $HOME"/./config/conky" ] || mkdir -p $HOME"/.config/conky"
+
+if [ -d ~/.config/conky ]; then
+	echo "################################################################"
+	echo "Making backup of current conky folder if there is one"
+	curtime=$(date +%Y%m%d_%H%M%S)
+	mkdir ~/.config/conky-backup-$curtime
+	cp -r ~/.config/conky/* ~/.config/conky-backup-$curtime
+	echo "Backup has been created at ~/.config/conky-backup-$curtime"
+fi
+
 
 
 ##################################################################################################################
@@ -105,6 +111,12 @@ fi
 
 
 # copy all config files to this hidden folder
+echo "################################################################"
+echo "Check if there is an ~./config/conky folder else create one"
+if [ ! -d ~./config/conky ]; then
+	mkdir -p $HOME"/.config/conky"
+fi
+
 cp -rf /tmp/archlabs-conky-collection/* ~/.config/conky
 rm -rf /tmp/archlabs-conky-collection
 

@@ -268,7 +268,7 @@
 				<item label="GUI Menu Editor">
 					<action name="Execute">
 						<command>
-                            obmenu
+                            obmenu3
                         </command>
 					</action>
 				</item>

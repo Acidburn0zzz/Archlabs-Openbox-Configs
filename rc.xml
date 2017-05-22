@@ -653,6 +653,12 @@
         <command>xfce4-settings-manager</command>
       </action>
     </keybind>
+    <keybind key="C-A-j">
+      <action name="Execute">
+        <command>obmenu3</command>
+      </action>
+      <action name="MaximizeFull"/>
+    </keybind>     
     <keybind key="C-A-k">
       <action name="Execute">
         <command>obkey</command>

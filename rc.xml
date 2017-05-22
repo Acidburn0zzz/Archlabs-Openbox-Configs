@@ -469,6 +469,11 @@
         <menu>client-list-combined-menu</menu>
       </action>
     </keybind>
+    <keybind key="C-space">
+      <action name="Execute">
+        <command>rofi -show run -fullscreen True -lines 3 -line-margin 6 -padding 300 -bw 0 -opacity "95" -font "Noto Sans 13" -scrollbar-width 0 -separator-style "none"</command>
+      </action>
+    </keybind>
     <keybind key="W-space">
       <action name="ShowMenu">
         <menu>root-menu</menu>

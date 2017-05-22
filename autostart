@@ -23,7 +23,8 @@ tint2 &
 # Set background image
 (sleep 1; nitrogen --restore) &
 
-#numlockx &
+#on laptops without seperate numeric keyboard put hashtag in front
+numlockx &
 
 ## GNOME PolicyKit authentication
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &

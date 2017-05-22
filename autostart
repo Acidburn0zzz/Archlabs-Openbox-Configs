@@ -56,3 +56,4 @@ xfsettingsd &
 (sleep 2s && al-conky-session --autostart) &
 
 #plank &
+#temps &

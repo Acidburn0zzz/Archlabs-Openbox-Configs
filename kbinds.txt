@@ -1,7 +1,7 @@
-2017-04-15	rc.xml KEYBINDS
+2017-05-22	rc.xml KEYBINDS
 -------------------------------
 
- 0	C-S-BackSpace   	openbox --restart
+ 0	C-S-BackSpace   	openbox --reconfigure
  1	W-KP_1          	UnmaximizeFull
  2	W-KP_2          	UnmaximizeFull
  3	W-KP_3          	UnmaximizeFull
@@ -21,10 +21,10 @@
 17	W-S-Left        	DirectionalCycleWindows
 18	W-S-Up          	DirectionalCycleWindows
 19	W-S-Down        	DirectionalCycleWindows
-20	S-A-Left        	SendToDesktop
-21	S-A-Right       	SendToDesktop
-22	S-A-Up          	SendToDesktop
-23	S-A-Down        	SendToDesktop
+20	S-A-Left        	SendToDesktopLeft
+21	S-A-Right       	SendToDesktopRight
+22	S-A-Up          	SendToDesktopUp
+23	S-A-Down        	SendToDesktopDown
 24	A-Escape        	Lower
 25	A-space         	client-menu
 26	XF86AudioRaiseVolume	amixer -D pulse sset Master '5%+'
@@ -38,7 +38,7 @@
 34	XF86MonBrightnessDown	xbacklight -10
 35	Print           	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pic.....
 36	A-Print         	scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ ; gpicview .....
-37	C-Print         	xfce4-screenshooter
+37	C-Print         	gnome-screenshot -i
 38	A-F2            	gmrun
 39	A-F3            	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'N.....
 40	W-S-d           	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'N.....
@@ -105,5 +105,3 @@
 101	C-A-i           	nitrogen
 102	C-A-u           	obconf
 103	C-A-F           	firefox
-104	W-s             	mintstick -m iso
-105	C-A-N           	nemo --quit

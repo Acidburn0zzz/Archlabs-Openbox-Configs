@@ -67,6 +67,7 @@ else
 
 fi
 
+echo "This script assumes you have a /dev/sda - Press ENTER to continue or CTRL + C to halt"; read dummy;
 
 sudo grub-install --target=i386-pc --recheck /dev/sda
 

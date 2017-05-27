@@ -38,7 +38,7 @@
 34	XF86MonBrightnessDown	xbacklight -10
 35	Print           	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pic.....
 36	A-Print         	scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ ; gpicview .....
-37	C-Print         	gnome-screenshot -i
+37	C-Print         	xfce4-screenshooter
 38	A-F2            	gmrun
 39	A-F3            	xfce4-appfinder
 40	W-S-d           	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'N.....
@@ -53,55 +53,56 @@
 49	W-w             	firefox
 50	W-l             	slimlock
 51	W-e             	geany
-52	W-m             	audacious
+52	W-m             	deadbeef
 53	W-h             	urxvt -T 'htop task manager' -e htop
 54	W-v             	pavucontrol
 55	W-x             	oblogout
 56	W-Escape        	xkill
 57	W-Tab           	client-list-combined-menu
-58	W-space         	root-menu
-59	W-Right         	UnmaximizeFull
-60	W-Left          	UnmaximizeFull
-61	W-Up            	MaximizeFull
-62	W-Down          	UnmaximizeFull
-63	W-A-Left        	UnmaximizeFull
-64	W-A-Right       	UnmaximizeFull
-65	A-r             	Resize
-66	A-m             	Move
-67	A-t             	variety -t
-68	A-f             	variety -f
-69	A-p             	variety -p
-70	A-Left          	variety -p
-71	A-n             	variety -n
-72	A-Right         	variety -n
-73	A-Down          	variety --resume
-74	A-Up            	variety --pause
-75	W-Pause         	oblogout
-76	S-W-q           	Close
-77	W-Return        	termite
-78	S-W-Return      	thunar
-79	W-F1            	firefox
-80	W-F2            	subl3
-81	W-F3            	inkscape
-82	W-F4            	gimp
-83	W-F5            	meld
-84	W-F6            	vlc
-85	W-F7            	virtualbox
-86	W-F8            	thunar
-87	W-F9            	evolution
-88	W-F10           	spotify
-89	C-S-Escape      	xfce4-taskmanager
-90	C-A-q           	root-menu
-91	C-A-m           	xfce4-settings-manager
-92	C-A-k           	obkey
-93	C-A-a           	xfce4-appfinder
-94	C-A-T           	termite
-95	C-A-d           	ToggleShowDesktop
-96	C-A-V           	vivaldi-stable
-97	C-A-B           	thunar
-98	C-A-W           	subl3
-99	C-A-S           	spotify
-100	C-A-C           	catfish
-101	C-A-i           	nitrogen
-102	C-A-u           	obconf
-103	C-A-F           	firefox
+58	C-space         	rofi -show run -fullscreen True -lines 3 -line-margin 6 -padding 300 -bw 0 .....
+59	W-space         	root-menu
+60	W-Right         	UnmaximizeFull
+61	W-Left          	UnmaximizeFull
+62	W-Up            	MaximizeFull
+63	W-Down          	UnmaximizeFull
+64	W-A-Left        	UnmaximizeFull
+65	W-A-Right       	UnmaximizeFull
+66	A-r             	Resize
+67	A-m             	Move
+68	A-t             	variety -t
+69	A-f             	variety -f
+70	A-p             	variety -p
+71	A-Left          	variety -p
+72	A-n             	variety -n
+73	A-Right         	variety -n
+74	A-Down          	variety --resume
+75	A-Up            	variety --pause
+76	W-Pause         	oblogout
+77	S-W-q           	Close
+78	W-Return        	termite
+79	S-W-Return      	thunar
+80	W-F1            	firefox
+81	W-F2            	subl3
+82	W-F3            	inkscape
+83	W-F4            	gimp
+84	W-F5            	meld
+85	W-F6            	vlc
+86	W-F7            	virtualbox
+87	W-F8            	thunar
+88	W-F9            	evolution
+89	W-F10           	spotify
+90	C-S-Escape      	xfce4-taskmanager
+91	C-A-q           	root-menu
+92	C-A-m           	xfce4-settings-manager
+93	C-A-k           	obkey
+94	C-A-a           	xfce4-appfinder
+95	C-A-T           	termite
+96	C-A-d           	ToggleShowDesktop
+97	C-A-V           	vivaldi-stable
+98	C-A-B           	thunar
+99	C-A-W           	subl3
+100	C-A-S           	spotify
+101	C-A-C           	catfish
+102	C-A-i           	nitrogen
+103	C-A-u           	obconf
+104	C-A-F           	firefox

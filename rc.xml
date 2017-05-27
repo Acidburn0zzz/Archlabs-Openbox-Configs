@@ -1123,7 +1123,7 @@
       </position>
       <maximized>yes</maximized>
     </application>
-   <application name="oblogout">
+    <application name="oblogout">
       <position force="yes">
         <monitor>1</monitor>
       </position>

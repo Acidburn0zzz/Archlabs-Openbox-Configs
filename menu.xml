@@ -319,13 +319,6 @@
                     </command>
 				</action>
 			</item>
-			<item label="Oomox">
-				<action name="Execute">
-					<command>
-                        oomox-gui
-                    </command>
-				</action>
-			</item>
 			<item label="LightDM Appearance">
 				<action name="Execute">
 					<command>
@@ -354,6 +347,13 @@
 					</command>
 				</action>
 			</item>
+			<item label="Oomox">
+				<action name="Execute">
+					<command>
+                        oomox-gui
+                    </command>
+				</action>
+			</item>			
 			<separator/>
 			<item label="Preferred Applications">
 				<action name="Execute">

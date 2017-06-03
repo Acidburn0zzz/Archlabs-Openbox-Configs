@@ -12,10 +12,6 @@
 #gnome-settings-daemon &
 #fi
 
-# If you want to use XFCE config tools...
-#
-#xfce-mcs-manager &
-
 compton -b --config ~/.config/compton.conf &
 
 tint2 &
@@ -30,7 +26,6 @@ numlockx &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 ## Volume control for systray
-#(sleep 2; volti) &
 (sleep 2; volumeicon) &
 
 ## Volume keys daemon
@@ -58,3 +53,4 @@ xfsettingsd &
 
 #plank &
 #temps &
+#redshift-gtk &

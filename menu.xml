@@ -241,6 +241,11 @@
 					<command>geany</command>
 				</action>
 			</item>
+			<item label="Sublime Text">
+				<action name="Execute">
+					<command>subl3</command>
+				</action>
+			</item>			
 		</menu>
 		<separator/>
 		<menu execute="/usr/bin/al-places-pipemenu" id="pipe-placesmenu" label="Places"/>

@@ -47,14 +47,9 @@
 		</item>
 		<separator/>
 		<menu id="accessories" label="Accessories">
-			<item label="Catfish File Search">
+			<item label="ALOB Themes Manager">
 				<action name="Execute">
-					<command>catfish</command>
-				</action>
-			</item>
-			<item label="URXVT Terminal">
-				<action name="Execute">
-					<command>urxvt</command>
+					<command>al-obthemes</command>
 				</action>
 			</item>
 			<item label="Archive Manager">
@@ -62,31 +57,36 @@
 					<command>file-roller</command>
 				</action>
 			</item>
+			<item label="Catfish File Search">
+				<action name="Execute">
+					<command>catfish</command>
+				</action>
+			</item>
 			<item label="Task Manager (htop)">
 				<action name="Execute">
 					<command>termite -e 'htop task manager' -e htop</command>
 				</action>
 			</item>
-			<item label="ALOB Themes Manager">
+			<item label="URXVT Terminal">
 				<action name="Execute">
-					<command>al-obthemes</command>
+					<command>urxvt</command>
 				</action>
 			</item>
+			<item label="XFBurn">
+				<action name="Execute">
+					<command>xfburn</command>
+				</action>
+			</item>			
 		</menu>
 		<menu id="graphics" label="Graphics">
-			<item label="Gpicview">
-				<action name="Execute">
-					<command>gpicview</command>
-				</action>
-			</item>
 			<item label="GIMP">
 				<action name="Execute">
 					<command>gimp</command>
 				</action>
 			</item>
-			<item label="Viewnior">
+			<item label="Gpicview">
 				<action name="Execute">
-					<command>viewnior</command>
+					<command>gpicview</command>
 				</action>
 			</item>
 			<item label="Screenshot">
@@ -97,25 +97,30 @@
 			<menu id="screenshot" label="Screenshooter">
 				<item label="Screenshot in 5">
 					<action name="Execute">
-						<command>scrot -d 5 'ArchLabs.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
+						<command>scrot -d 5 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
 					</action>
 				</item>
 				<item label="Screenshot in 10">
 					<action name="Execute">
-						<command>scrot -d 10 'ArchLabs.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
+						<command>scrot -d 10 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
 					</action>
 				</item>
 				<item label="Screenshot With Selection">
 					<action name="Execute">
-						<execute>scrot -s 'ArchLabs-Selection.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</execute>
+						<execute>scrot -s 'ARCHLabs-Selection.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</execute>
 					</action>
 				</item>
 			</menu>
+			<item label="Viewnior">
+				<action name="Execute">
+					<command>viewnior</command>
+				</action>
+			</item>
 		</menu>
 		<menu id="multimedia" label="Multimedia">
-			<item label="VLC">
+			<item label="ALSA Preferences">
 				<action name="Execute">
-					<command>vlc</command>
+					<command>termite -e alsamixer</command>
 				</action>
 			</item>
 			<item label="Deadbeef">
@@ -123,31 +128,21 @@
 					<command>deadbeef</command>
 				</action>
 			</item>
-			<item label="XFBurn">
-				<action name="Execute">
-					<command>xfburn</command>
-				</action>
-			</item>
 			<item label="Pulse Audio Preferences">
 				<action name="Execute">
 					<command>pavucontrol</command>
 				</action>
 			</item>
-			<item label="ALSA Preferences">
+			<item label="VLC">
 				<action name="Execute">
-					<command>termite -e alsamixer</command>
+					<command>vlc</command>
 				</action>
 			</item>
 		</menu>
 		<menu id="network" label="Network">
-			<item label="Chromium Browser">
+			<item label="Chromium">
 				<action name="Execute">
 					<command>chromium</command>
-				</action>
-			</item>
-			<item label="Firefox Browser">
-				<action name="Execute">
-					<command>firefox</command>
 				</action>
 			</item>
 			<item label="Filezilla FTP Client">
@@ -155,23 +150,53 @@
 					<command>filezilla</command>
 				</action>
 			</item>
-			<item label="Transmission BitTorrent Client">
+			<item label="Firefox">
 				<action name="Execute">
-					<command>transmission-gtk</command>
+					<command>firefox</command>
 				</action>
 			</item>
 			<item label="HexChat IRC Client">
 				<action name="Execute">
 					<command>hexchat</command>
 				</action>
-			</item>
+			</item>	
 			<item label="Remote Filesystems">
 				<action name="Execute">
 					<command>gigolo</command>
 				</action>
 			</item>
+			<item label="Transmission BitTorrent Client">
+				<action name="Execute">
+					<command>transmission-gtk</command>
+				</action>
+			</item>
+			<item label="Vivaldi">
+				<action name="Execute">
+					<command>vivaldi-snapshot</command>
+				</action>
+			</item>				
 		</menu>
 		<menu id="office" label="Office">
+			<item label="Calculator">
+				<action name="Execute">
+					<command>galculator</command>
+				</action>
+			</item>
+			<item label="Evince PDF Viewer">
+				<action name="Execute">
+					<command>evince</command>
+				</action>
+			</item>				
+			<item label="Gnumeric Spreadsheet">
+				<action name="Execute">
+					<command>gnumeric</command>
+				</action>
+			</item>
+			<item label="Google Docs">
+				<action name="Execute">
+					<command>exo-open https://drive.google.com/</command>
+				</action>
+			</item>	
 			<menu id="office menu" label="Libre Office">
 				<item label="Libre Office Base">
 					<action name="Execute">
@@ -209,26 +234,6 @@
 					</action>
 				</item>
 			</menu>
-			<item label="Google Docs">
-				<action name="Execute">
-					<command>exo-open https://drive.google.com/</command>
-				</action>
-			</item>
-			<item label="Gnumeric Spreadsheet">
-				<action name="Execute">
-					<command>gnumeric</command>
-				</action>
-			</item>
-			<item label="Calculator">
-				<action name="Execute">
-					<command>galculator</command>
-				</action>
-			</item>
-			<item label="Evince PDF Viewer">
-				<action name="Execute">
-					<command>evince</command>
-				</action>
-			</item>
 		</menu>
 		<menu id="programming" label="Programming">
 			<item label="Geany">
@@ -347,6 +352,11 @@
 					</command>
 				</action>
 			</item>
+			<item label="Pulse Audio Preferences">
+				<action name="Execute">
+					<command>pavucontrol</command>
+				</action>
+			</item>			
 			<item label="Oomox">
 				<action name="Execute">
 					<command>
@@ -369,6 +379,11 @@
                     </command>
 				</action>
 			</item>
+			<item label="Xfce4 Settings Manager">
+				<action name="Execute">
+					<command>xfce4-settings-manager</command>
+				</action>
+			</item>				
 			<item label="Dmenu">
 				<action name="Execute">
 					<command>
@@ -376,7 +391,7 @@
                      </command>
 				</action>
 			</item>
-			<item label="ARandR Screen Layout Editor">
+			<item label="Screen Layout Editor">
 				<action name="Execute">
 					<command>
                         arandr

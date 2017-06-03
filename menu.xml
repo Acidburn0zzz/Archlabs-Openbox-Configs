@@ -362,7 +362,7 @@
 					</command>
 				</action>
 			</item>
-			<item label="Pulse Audio Preferences">
+			<item label="Pulseaudio Preferences">
 				<action name="Execute">
 					<command>pavucontrol</command>
 				</action>

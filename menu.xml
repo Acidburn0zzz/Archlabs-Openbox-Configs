@@ -47,7 +47,7 @@
 		</item>
 		<separator/>
 		<menu id="accessories" label="Accessories">
-			<item label="ALOB Themes Manager">
+			<item label="Alob Themes Manager">
 				<action name="Execute">
 					<command>al-obthemes</command>
 				</action>
@@ -67,12 +67,12 @@
 					<command>termite -e 'htop task manager' -e htop</command>
 				</action>
 			</item>
-			<item label="URXVT Terminal">
+			<item label="Urxvt Terminal">
 				<action name="Execute">
 					<command>urxvt</command>
 				</action>
 			</item>
-			<item label="XFBurn">
+			<item label="Xfburn">
 				<action name="Execute">
 					<command>xfburn</command>
 				</action>
@@ -123,7 +123,7 @@
 			</item>
 		</menu>
 		<menu id="multimedia" label="Multimedia">
-			<item label="ALSA Preferences">
+			<item label="Alsa Preferences">
 				<action name="Execute">
 					<command>termite -e alsamixer</command>
 				</action>
@@ -138,7 +138,7 @@
 					<command>pavucontrol</command>
 				</action>
 			</item>
-			<item label="VLC">
+			<item label="Vlc">
 				<action name="Execute">
 					<command>vlc</command>
 				</action>

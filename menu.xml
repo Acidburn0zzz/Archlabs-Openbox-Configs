@@ -165,11 +165,6 @@
 					<command>hexchat</command>
 				</action>
 			</item>	
-			<item label="Remote Filesystems">
-				<action name="Execute">
-					<command>gigolo</command>
-				</action>
-			</item>
 			<item label="Transmission BitTorrent Client">
 				<action name="Execute">
 					<command>transmission-gtk</command>

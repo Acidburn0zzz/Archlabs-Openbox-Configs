@@ -79,7 +79,7 @@
 			</item>			
 		</menu>
 		<menu id="graphics" label="Graphics">
-			<item label="GIMP">
+			<item label="Gimp">
 				<action name="Execute">
 					<command>gimp</command>
 				</action>
@@ -89,6 +89,11 @@
 					<command>gpicview</command>
 				</action>
 			</item>
+			<item label="Inkscape">
+				<action name="Execute">
+					<command>inkscape</command>
+				</action>
+			</item>			
 			<item label="Screenshot">
 				<action name="Execute">
 					<command>scrot</command>

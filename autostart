@@ -16,6 +16,8 @@ compton -b --config ~/.config/compton.conf &
 
 tint2 &
 
+#(sleep 3; blueberry-tray) &
+
 # Set background image
 (sleep 1; nitrogen --restore) &
 
@@ -52,6 +54,6 @@ xfsettingsd &
 (sleep 2s && al-conky-session --autostart) &
 
 #plank &
-#temps &
+#(sleep 2; temps) &
 #redshift-gtk &
-#blueberry-tray &
+

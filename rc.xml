@@ -658,7 +658,7 @@
         <command>obmenu3</command>
       </action>
       <action name="MaximizeFull"/>
-    </keybind>     
+    </keybind>
     <keybind key="C-A-k">
       <action name="Execute">
         <command>obkey</command>
@@ -718,6 +718,11 @@
         <command>firefox</command>
       </action>
     </keybind>
+    <keybind key="C-A-G">
+      <action name="Execute">
+        <command>chromium</command>
+      </action>
+    </keybind>    
   </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>

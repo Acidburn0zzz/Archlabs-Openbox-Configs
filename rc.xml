@@ -680,7 +680,7 @@
     </keybind>
     <keybind key="C-A-V">
       <action name="Execute">
-        <command>vivaldi-stable</command>
+        <command>vivaldi-snapshot</command>
       </action>
     </keybind>
     <keybind key="C-A-B">

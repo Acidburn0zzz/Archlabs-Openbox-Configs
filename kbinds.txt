@@ -1,4 +1,4 @@
-2017-06-03	rc.xml KEYBINDS
+2017-06-08	rc.xml KEYBINDS
 -------------------------------
 
  0	C-S-BackSpace   	openbox --reconfigure
@@ -94,15 +94,17 @@
 90	C-S-Escape      	xfce4-taskmanager
 91	C-A-q           	root-menu
 92	C-A-m           	xfce4-settings-manager
-93	C-A-k           	obkey
-94	C-A-a           	xfce4-appfinder
-95	C-A-T           	termite
-96	C-A-d           	ToggleShowDesktop
-97	C-A-V           	vivaldi-stable
-98	C-A-B           	thunar
-99	C-A-W           	subl3
-100	C-A-S           	spotify
-101	C-A-C           	catfish
-102	C-A-i           	nitrogen
-103	C-A-u           	obconf
-104	C-A-F           	firefox
+93	C-A-j           	obmenu3
+94	C-A-k           	obkey
+95	C-A-a           	xfce4-appfinder
+96	C-A-T           	termite
+97	C-A-d           	ToggleShowDesktop
+98	C-A-V           	vivaldi-snapshot
+99	C-A-B           	thunar
+100	C-A-W           	subl3
+101	C-A-S           	spotify
+102	C-A-C           	catfish
+103	C-A-i           	nitrogen
+104	C-A-u           	obconf
+105	C-A-F           	firefox
+106	C-A-G           	chromium

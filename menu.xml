@@ -458,8 +458,6 @@
 			</item>
 		</menu>
 		<separator/>
-		<menu execute="/usr/bin/al-help-pipemenu" id="help" label="Help &amp; Resources"/>
-		<menu execute="al-kb-pipemenu" id="keybinds" label="Display Keybinds"/>
 		<item label="ArchLabs Hello">
 			<action name="Execute">
 				<command>
@@ -467,6 +465,8 @@
 				</command>
 			</action>
 		</item>
+		<menu execute="/usr/bin/al-help-pipemenu" id="help" label="Help &amp; Resources"/>
+		<menu execute="al-kb-pipemenu" id="keybinds" label="Display Keybinds"/>
 		<separator/>
 		<item label="Lock Screen">
 			<action name="Execute">

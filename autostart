@@ -17,7 +17,7 @@ compton -b --config ~/.config/compton.conf &
 tint2 &
 
 #thunar starting in daemon mode
-thunar --daemon
+thunar --daemon &
 
 #bluetooth#
 (sleep 3; blueberry-tray) &

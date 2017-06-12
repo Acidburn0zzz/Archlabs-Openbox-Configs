@@ -722,7 +722,7 @@
       <action name="Execute">
         <command>chromium</command>
       </action>
-    </keybind>    
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>8</dragThreshold>

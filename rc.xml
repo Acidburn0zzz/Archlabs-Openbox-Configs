@@ -426,7 +426,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>firefox</command>
+        <command>exo-open --launch webbrowser</command>
       </action>
     </keybind>
     <keybind key="W-l">

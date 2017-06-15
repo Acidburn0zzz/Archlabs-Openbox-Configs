@@ -20,7 +20,7 @@ tint2 &
 thunar --daemon &
 
 #bluetooth#
-(sleep 3; blueberry-tray) &
+#(sleep 3; blueberry-tray) &
 
 # Set background image
 (sleep 1; nitrogen --restore) &
@@ -53,7 +53,6 @@ xfsettingsd &
 #xscreensaver -no-splash &
 
 (sleep 5; nm-applet) &
-
 
 (sleep 2s && al-conky-session --autostart) &
 

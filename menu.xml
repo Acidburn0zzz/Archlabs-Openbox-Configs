@@ -86,6 +86,23 @@
         </action>
       </item>
     </menu>
+    <menu id="development" label="Development">
+      <item label="Geany">
+        <action name="Execute">
+          <command>geany</command>
+        </action>
+      </item>
+      <item label="Meld">
+        <action name="Execute">
+          <command>meld</command>
+        </action>
+      </item>
+      <item label="Sublime Text">
+        <action name="Execute">
+          <command>subl3</command>
+        </action>
+      </item>
+    </menu>    
     <menu id="graphics" label="Graphics">
       <item label="Gimp">
         <action name="Execute">
@@ -252,23 +269,6 @@
           </action>
         </item>
       </menu>
-    </menu>
-    <menu id="programming" label="Programming">
-      <item label="Geany">
-        <action name="Execute">
-          <command>geany</command>
-        </action>
-      </item>
-      <item label="Meld">
-        <action name="Execute">
-          <command>meld</command>
-        </action>
-      </item>
-      <item label="Sublime Text">
-        <action name="Execute">
-          <command>subl3</command>
-        </action>
-      </item>
     </menu>
     <separator/>
     <menu execute="/usr/bin/al-places-pipemenu" id="pipe-placesmenu" label="Places"/>

@@ -102,7 +102,7 @@
           <command>subl3</command>
         </action>
       </item>
-    </menu>    
+    </menu>
     <menu id="graphics" label="Graphics">
       <item label="Gimp">
         <action name="Execute">
@@ -342,6 +342,11 @@
       <item label="Slim Appearance">
         <action name="Execute">
           <command>gksudo geany /etc/slim.conf</command>
+        </action>
+      </item>
+      <item label="Rofi Appearance">
+        <action name="Execute">
+          <command>rofi-theme-selector rofi -modi drun,run -show drun -width 700 -location 0 -font "Noto Sans 13"</command>
         </action>
       </item>
       <item label="Choose Wallpaper">

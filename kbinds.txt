@@ -1,4 +1,4 @@
-2017-06-15	rc.xml KEYBINDS
+2017-06-18	rc.xml KEYBINDS
 -------------------------------
 
  0	C-S-BackSpace   	openbox --reconfigure
@@ -52,59 +52,60 @@
 48	W-t             	termite
 49	W-w             	exo-open --launch webbrowser
 50	W-l             	slimlock
-51	W-e             	geany
-52	W-m             	deadbeef
-53	W-h             	urxvt -T 'htop task manager' -e htop
-54	W-v             	pavucontrol
-55	W-x             	oblogout
-56	W-Escape        	xkill
-57	W-Tab           	client-list-combined-menu
-58	C-space         	rofi -show run -fullscreen True -lines 3 -line-margin 6 -padding 300 -bw 0 .....
-59	W-space         	root-menu
-60	W-Right         	UnmaximizeFull
-61	W-Left          	UnmaximizeFull
-62	W-Up            	MaximizeFull
-63	W-Down          	UnmaximizeFull
-64	W-A-Left        	UnmaximizeFull
-65	W-A-Right       	UnmaximizeFull
-66	A-r             	Resize
-67	A-m             	Move
-68	A-t             	variety -t
-69	A-f             	variety -f
-70	A-p             	variety -p
-71	A-Left          	variety -p
-72	A-n             	variety -n
-73	A-Right         	variety -n
-74	A-Down          	variety --resume
-75	A-Up            	variety --pause
-76	W-Pause         	oblogout
-77	S-W-q           	Close
-78	W-Return        	termite
-79	S-W-Return      	thunar
-80	W-F1            	firefox
-81	W-F2            	subl3
-82	W-F3            	inkscape
-83	W-F4            	gimp
-84	W-F5            	meld
-85	W-F6            	vlc
-86	W-F7            	virtualbox
-87	W-F8            	thunar
-88	W-F9            	evolution
-89	W-F10           	spotify
-90	C-S-Escape      	xfce4-taskmanager
-91	C-A-q           	root-menu
-92	C-A-m           	xfce4-settings-manager
-93	C-A-j           	obmenu3
-94	C-A-k           	obkey
-95	C-A-a           	xfce4-appfinder
-96	C-A-T           	termite
-97	C-A-d           	ToggleShowDesktop
-98	C-A-V           	vivaldi-snapshot
-99	C-A-B           	thunar
-100	C-A-W           	subl3
-101	C-A-S           	spotify
-102	C-A-C           	catfish
-103	C-A-i           	nitrogen
-104	C-A-u           	obconf
-105	C-A-F           	firefox
-106	C-A-G           	chromium
+51	W-r             	rofi-theme-selector
+52	W-e             	geany
+53	W-m             	deadbeef
+54	W-h             	urxvt -T 'htop task manager' -e htop
+55	W-v             	pavucontrol
+56	W-x             	oblogout
+57	W-Escape        	xkill
+58	W-Tab           	client-list-combined-menu
+59	C-space         	rofi -modi drun,run -show drun -fullscreen -font "Noto Sans 13"
+60	W-space         	root-menu
+61	W-Right         	UnmaximizeFull
+62	W-Left          	UnmaximizeFull
+63	W-Up            	MaximizeFull
+64	W-Down          	UnmaximizeFull
+65	W-A-Left        	UnmaximizeFull
+66	W-A-Right       	UnmaximizeFull
+67	A-r             	Resize
+68	A-m             	Move
+69	A-t             	variety -t
+70	A-f             	variety -f
+71	A-p             	variety -p
+72	A-Left          	variety -p
+73	A-n             	variety -n
+74	A-Right         	variety -n
+75	A-Down          	variety --resume
+76	A-Up            	variety --pause
+77	W-Pause         	oblogout
+78	S-W-q           	Close
+79	W-Return        	termite
+80	S-W-Return      	thunar
+81	W-F1            	firefox
+82	W-F2            	subl3
+83	W-F3            	inkscape
+84	W-F4            	gimp
+85	W-F5            	meld
+86	W-F6            	vlc
+87	W-F7            	virtualbox
+88	W-F8            	thunar
+89	W-F9            	evolution
+90	W-F10           	spotify
+91	C-S-Escape      	xfce4-taskmanager
+92	C-A-q           	root-menu
+93	C-A-m           	xfce4-settings-manager
+94	C-A-j           	obmenu3
+95	C-A-k           	obkey
+96	C-A-a           	xfce4-appfinder
+97	C-A-T           	termite
+98	C-A-d           	ToggleShowDesktop
+99	C-A-V           	vivaldi-snapshot
+100	C-A-B           	thunar
+101	C-A-W           	subl3
+102	C-A-S           	spotify
+103	C-A-C           	catfish
+104	C-A-i           	nitrogen
+105	C-A-O           	obconf
+106	C-A-F           	firefox
+107	C-A-G           	chromium

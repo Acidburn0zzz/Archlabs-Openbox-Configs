@@ -354,6 +354,7 @@
           <command>nitrogen</command>
         </action>
       </item>
+      <separator/>
       <item label="Notifications">
         <action name="Execute">
           <command>xfce4-notifyd-config</command>

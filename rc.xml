@@ -478,6 +478,11 @@
         <command>rofi -modi drun,run -show drun -fullscreen -font "Noto Sans 13"</command>
       </action>
     </keybind>
+    <keybind key="Shift-space">
+      <action name="Execute">
+        <command>rofi -modi drun,run -show drun -font "Noto Sans 13"</command>
+      </action>
+    </keybind>    
     <keybind key="W-space">
       <action name="ShowMenu">
         <menu>root-menu</menu>

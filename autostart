@@ -25,7 +25,7 @@ numlockx &
 
 ## Volume control for systray
 (sleep 2; volumeicon) &
-
+#(sleep 2; pasystray) &
 
 ## Turn off/on System Beep
 xset b off

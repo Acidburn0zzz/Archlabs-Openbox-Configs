@@ -158,11 +158,6 @@
       </item>
     </menu>
     <menu id="multimedia" label="Multimedia">
-      <item label="Alsa Preferences">
-        <action name="Execute">
-          <command>termite -e alsamixer</command>
-        </action>
-      </item>
       <item label="Deadbeef">
         <action name="Execute">
           <command>deadbeef</command>

@@ -443,6 +443,11 @@
         <command>pavucontrol</command>
       </action>
     </keybind>
+    <keybind key="C-A-u">
+      <action name="Execute">
+        <command>pavucontrol</command>
+      </action>
+    </keybind>    
     <keybind key="W-x">
       <action name="Execute">
         <command>oblogout</command>

@@ -702,6 +702,11 @@
         <command>thunar</command>
       </action>
     </keybind>
+    <keybind key="C-A-E">
+      <action name="Execute">
+        <command>deadbeef</command>
+      </action>
+    </keybind>    
     <keybind key="C-A-W">
       <action name="Execute">
         <command>subl3</command>

@@ -423,6 +423,11 @@
         <command>rofi-theme-selector</command>
       </action>
     </keybind>
+    <keybind key="C-A-r">
+      <action name="Execute">
+        <command>rofi-theme-selector</command>
+      </action>
+    </keybind>    
     <keybind key="W-e">
       <action name="Execute">
         <command>geany</command>

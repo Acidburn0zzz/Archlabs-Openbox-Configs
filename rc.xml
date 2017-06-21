@@ -39,7 +39,7 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Arc</name>
+    <name>Bunsen-Dark-He</name>
     <titleLayout>DSLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -1115,8 +1115,7 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-  </application>
-    <!--
+  <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.
   # you may use one or more of the name/class/role/title/type rules to specify

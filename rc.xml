@@ -1115,19 +1115,7 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-    <application name="Firefox">
-      <position force="yes">
-        <desktop>1</desktop>
-        <monitor>1</monitor>
-      </position>
-      <maximized>yes</maximized>
-    </application>
-    <application name="oblogout">
-      <position force="yes">
-        <monitor>1</monitor>
-      </position>
-      <fullscreen>yes</fullscreen>
-    </application>
+  </application>
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.

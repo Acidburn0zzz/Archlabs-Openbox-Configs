@@ -1,4 +1,4 @@
-2017-06-22	rc.xml KEYBINDS
+2017-06-28	rc.xml KEYBINDS
 -------------------------------
 
  0	C-S-BackSpace   	openbox --reconfigure
@@ -33,9 +33,9 @@
 29	XF86AudioNext   	playerctl next
 30	XF86MonBrightnessUp	xbacklight +10
 31	XF86MonBrightnessDown	xbacklight -10
-32	Print           	scrot '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pic.....
-33	A-Print         	scrot -d 5 '%Y-%m-%d--%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/ ; gpicview .....
-34	C-Print         	xfce4-screenshooter
+32	Print           	scrot '%Y-%m-%d-%S_$wx$h_ArchLabs.png' -e 'mv $f ~/Pictures/ ; gpicview ~/P.....
+33	A-Print         	scrot -d 5 '%Y-%m-%d-%S_$wx$h_ArchLabs.png' -e 'mv $f ~/Pictures/ ; gpicvie.....
+34	C-Print         	gnome-screenshot -i
 35	A-F2            	gmrun
 36	A-F3            	xfce4-appfinder
 37	W-S-d           	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'N.....

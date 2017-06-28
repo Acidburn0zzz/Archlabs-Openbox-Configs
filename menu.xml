@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
   <menu id="root-menu" label="Openbox 3">
     <separator label="ArchLabs"/>
@@ -131,23 +132,23 @@
       </item>
       <item label="Screenshot">
         <action name="Execute">
-          <command>scrot</command>
+          <command>scrot 'ArchLabs-%Y-%m-%d-%S_$wx$h.png'</command>
         </action>
       </item>
       <menu id="screenshot" label="Screenshooter">
         <item label="Screenshot in 5">
           <action name="Execute">
-            <command>scrot -d 5 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
+            <command>scrot -d 5 'ArchLabs-%Y-%m-%d-%S_$wx$h.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
           </action>
         </item>
         <item label="Screenshot in 10">
           <action name="Execute">
-            <command>scrot -d 10 'ARCHLabs.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
+            <command>scrot -d 10 'ArchLabs-%Y-%m-%d-%S_$wx$h.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
           </action>
         </item>
         <item label="Screenshot With Selection">
           <action name="Execute">
-            <execute>scrot -s 'ARCHLabs-Selection.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</execute>
+            <execute>scrot -s 'ArchLabs-%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</execute>
           </action>
         </item>
       </menu>

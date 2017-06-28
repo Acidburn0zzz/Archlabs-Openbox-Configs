@@ -345,6 +345,11 @@
           <command>rofi-theme-selector rofi -modi drun,run -show drun -width 700 -location 0 -font "Noto Sans 13"</command>
         </action>
       </item>
+      <item label="Termite Appearance">
+        <action name="Execute">
+          <command>geany ~/.config/termite/config</command>
+        </action>
+      </item>      
       <item label="Choose Wallpaper">
         <action name="Execute">
           <command>nitrogen</command>

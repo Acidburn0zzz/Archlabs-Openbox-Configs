@@ -348,7 +348,12 @@
         <action name="Execute">
           <command>geany ~/.config/termite/config</command>
         </action>
-      </item>      
+      </item>
+      <item label="Exit Appearance">
+        <action name="Execute">
+          <command>gksudo geany /etc/oblogout.conf</command>
+        </action>
+      </item>            
       <item label="Choose Wallpaper">
         <action name="Execute">
           <command>nitrogen</command>

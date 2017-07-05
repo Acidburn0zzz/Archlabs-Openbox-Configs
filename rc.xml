@@ -348,12 +348,12 @@
     </keybind>
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot '%Y-%m-%d-%S_$wx$h_ArchLabs.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
+        <command>scrot 'ArchLabs_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
       </action>
     </keybind>
     <keybind key="A-Print">
       <action name="Execute">
-        <command>scrot -d 5 '%Y-%m-%d-%S_$wx$h_ArchLabs.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
+        <command>scrot -d 5 'ArchLabs_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
       </action>
     </keybind>
     <keybind key="C-Print">

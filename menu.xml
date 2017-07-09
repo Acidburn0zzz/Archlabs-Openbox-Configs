@@ -353,7 +353,7 @@
         <action name="Execute">
           <command>gksudo geany /etc/oblogout.conf</command>
         </action>
-      </item>            
+      </item>
       <item label="Choose Wallpaper">
         <action name="Execute">
           <command>nitrogen</command>
@@ -457,6 +457,12 @@
         </action>
       </item>
     </menu>
+    <separator/>
+    <item label="Generate Menu">
+      <action name="Execute">
+        <command>genmenu</command>
+      </action>
+    </item>
     <separator/>
     <item label="ArchLabs Hello">
       <action name="Execute">

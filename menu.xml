@@ -173,7 +173,7 @@
           <command>simplescreenrecorder</command>
         </action>
       </item>
-      <item label="Vlc">
+      <item label="VLC">
         <action name="Execute">
           <command>vlc</command>
         </action>

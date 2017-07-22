@@ -1243,5 +1243,13 @@
       </position>
     </application>
 -->
+
+  <application name="oblogout">
+    <position force="yes">
+      <monitor>1</monitor>
+    </position>
+    <fullscreen>yes</fullscreen>
+  </application>
+
   </applications>
 </openbox_config>

@@ -10,17 +10,17 @@
     <separator/>
     <item label="Terminal">
       <action name="Execute">
-        <command>termite</command>
+        <command>exo-open --launch TerminalEmulator</command>
       </action>
     </item>
     <item label="Web Browser">
       <action name="Execute">
-        <command>exo-open --launch webbrowser</command>
+        <command>exo-open --launch WebBrowser</command>
       </action>
     </item>
     <item label="File Manager">
       <action name="Execute">
-        <command>exo-open --launch filemanager</command>
+        <command>exo-open --launch FileManager</command>
       </action>
     </item>
     <item label="Text Editor">
@@ -35,11 +35,6 @@
     </item>
     <separator/>
     <menu id="accessories" label="Accessories">
-      <item label="Alob Themes Manager">
-        <action name="Execute">
-          <command>al-obthemes</command>
-        </action>
-      </item>
       <item label="Archive Manager">
         <action name="Execute">
           <command>file-roller</command>
@@ -135,21 +130,21 @@
         </action>
       </item>
       <menu id="screenshot" label="Screenshooter">
-        <item label="Screenshot in 5">
-          <action name="Execute">
-            <command>scrot -d 5 'ArchLabs-%Y-%m-%d-%S_$wx$h.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
-          </action>
-        </item>
-        <item label="Screenshot in 10">
-          <action name="Execute">
-            <command>scrot -d 10 'ArchLabs-%Y-%m-%d-%S_$wx$h.png' -e  'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</command>
-          </action>
-        </item>
-        <item label="Screenshot With Selection">
-          <action name="Execute">
-            <execute>scrot -s 'ArchLabs-%Y-%m-%d-%S_$wx$h.png' -e 'mv $f ~/Pictures/ ; gpicview ~/Pictures/$f'</execute>
-          </action>
-        </item>
+          <item label="Screenshot in 5">
+            <action name="Execute">
+              <command>scrot -d 5 'ArchLabs_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f'</command>
+            </action>
+          </item>
+          <item label="Screenshot in 10">
+            <action name="Execute">
+              <command>scrot -d 10 'ArchLabs_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f'</command>
+            </action>
+          </item>
+          <item label="Screenshot With Selection">
+            <action name="Execute">
+              <command>scrot -s 'ArchLabs_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f'</command>
+            </action>
+          </item>
       </menu>
       <item label="Viewnior">
         <action name="Execute">
@@ -173,7 +168,7 @@
           <command>simplescreenrecorder</command>
         </action>
       </item>
-      <item label="VLC">
+      <item label="Vlc">
         <action name="Execute">
           <command>vlc</command>
         </action>
@@ -341,7 +336,7 @@
       </item>
       <item label="Rofi Appearance">
         <action name="Execute">
-          <command>rofi-theme-selector rofi -modi drun,run -show drun -width 700 -location 0 -font "Noto Sans 13"</command>
+          <command>rofi-theme-selector</command>
         </action>
       </item>
       <item label="Termite Appearance">
@@ -353,7 +348,7 @@
         <action name="Execute">
           <command>gksudo geany /etc/oblogout.conf</command>
         </action>
-      </item>            
+      </item>
       <item label="Choose Wallpaper">
         <action name="Execute">
           <command>nitrogen</command>
@@ -408,17 +403,11 @@
       </item>
     </menu>
     <menu id="system-settings" label="System Settings">
-      <item label="Pamac Package Manager">
+      <item label="Package Manager">
         <action name="Execute">
           <command>pamac-manager</command>
         </action>
       </item>
-      <item label="Pamac Package Updater">
-        <action name="Execute">
-          <command>pamac-updater</command>
-        </action>
-      </item>
-      <separator/>
       <item label="File Manager As Root">
         <action name="Execute">
           <command>gksudo thunar</command>
@@ -465,6 +454,11 @@
     </item>
     <menu execute="/usr/bin/al-help-pipemenu" id="help" label="Help &amp; Resources"/>
     <menu execute="al-kb-pipemenu" id="keybinds" label="Display Keybinds"/>
+    <item label="Switch Menu">
+      <action name="Execute">
+        <command>genmenu</command>
+      </action>
+    </item>
     <separator/>
     <item label="Lock Screen">
       <action name="Execute">
